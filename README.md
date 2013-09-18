@@ -1,6 +1,6 @@
 # generator-epom [![Build Status](https://secure.travis-ci.org/oligot/generator-epom.png?branch=master)](https://travis-ci.org/oligot/generator-epom)
 
-A generator for [Yeoman](http://yeoman.io).
+A [Yeoman](http://yeoman.io) generator for the [E(iffel) P(ersistent) O(bjects) M(anagement)](https://github.com/safe-eiffel/epom) library.
 
 
 ## Getting Started
