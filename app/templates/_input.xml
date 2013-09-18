@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<modules>
+	<access name="<%= className %>_READ" type="read">
+		<description>
+			description: "Read the persistent state of <%= _.humanize(className) %>."
+		</description>
+		<sql>
+			<![CDATA[
+                        SELECT ...
+                        FROM ...
+                        WHERE ... = :...
+			]]>
+		</sql>
+		<parameter_set extends="<%= className %>_PARAMETERS">
+			<parameter name="" table="" column="" SAMPLE=""/>
+		</parameter_set>			
+		<result_set extends="ROW_<%= className %>"/>
+	</access>
+</modules>
